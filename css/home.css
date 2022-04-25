@@ -1,0 +1,155 @@
+footer {
+  background: black;
+  color: gray;
+  font-size: 12px;
+  padding: 20px 20px;
+  text-align: center;
+}  
+
+body ul{
+  background: rgb(58, 58, 58);
+  color: white;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* HEADER */
+
+header {
+  background-color: black;
+  background-size: 100%;
+  background-position: center;
+  height: 400px;
+  padding: 20px;
+  text-align: center;
+}
+
+.yeet {
+  background-image: url();
+   background-repeat: no-repeat;
+   background-size: contain;
+}
+
+.neat {
+  background-image: url(images/giphym.gif);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.beet  {
+  background-image: url(images/me.jpg);
+  background-repeat: no-repeat;
+  text-align: center;
+  background-size: contain;
+  padding: 300px;
+  width: 300px;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-top: 40px;
+}
+
+header .mobile {
+  display: none;
+
+}
+
+header .logo a {
+
+  background-size: 300px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 80px;
+  position: relative;
+  text-indent: -9999999px;
+  top: -30px;
+  width: 300px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.text-text  {
+  font: white;
+}
+
+/* RESPONSIVE  RULES */
+@media screen and (nax-width: 715px) {
+  header  {
+    height: 200px;
+    background-position:  0  -38px
+  }
+  header .mobile {
+  display: inline-block;
+  }
+  header  .desktop  {
+    display: none;
+}
+}
+
+@media screen and (nax-width: 500px) {
+  header {
+    height: 280px;
+    background-image: url(https://www.google.com/search?q=background+images+cool+gaming&rlz=1C1RUCY_enAE737AE737&tbm=isch&source=iu&ictx=1&fir=_H8DGQ-cP_zOBM%252CpNm9fNfsXp-R1M%252C_&vet=1&usg=AI4_-kSlC_Tv3jKm0MxH6GMQA2D96Bdn2w&sa=X&ved=2ahUKEwiG4LqAi9zrAhVraRUIHbmfAHUQ9QF6BAgKECk#imgrc=_H8DGQ-cP_zOBM);
+    background-position: 0 -0px;
+  }
+}
+
+/* FEATURES */
+
+.features {
+  background: white;
+  color: rgb(104, 100, 100);
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.features figure {
+  margin: auto;
+  text-align: center;
+  text-transform: uppercase;
+  width: 200px;
+}
+
+.features figure img {
+  border: 1px solid white;
+  border-radius: 50%;
+  width: 200px;
+  box-shadow: gray 0 0 10px;
+}
+
+/* RESPONSIVE  RULES */
+@media screen and(nac-width: 715px)   {
+  .features  {
+    display: block;
+  }
+}
+
+/* FOOTER */
+
+
+@media screen and(nac-width: 800px) {
+  .features {
+    background: pink;
+  }
+}
+
+@media screen and(nac-width: 400px) {
+  .features {
+    background: plum;
+  }
+}
